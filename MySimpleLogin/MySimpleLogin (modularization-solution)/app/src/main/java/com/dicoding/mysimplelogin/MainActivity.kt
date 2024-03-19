@@ -27,6 +27,8 @@ class MainActivity : AppCompatActivity() {
         binding.btnLogin.setOnClickListener {
             saveSession()
         }
+
+        binding
     }
 
     private fun saveSession() {
